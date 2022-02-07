@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html>
+    <title>
+        LOGGED USERS
+    </title>
+    <head>
+        <h1>
+            {% for item in values %}
+                <p>USERNAME: {{item.usr}}, PASSWORD: {{item.pwd}}</p>
+            {% endfor %}
+        </h1>
+    </head>
+</html>
